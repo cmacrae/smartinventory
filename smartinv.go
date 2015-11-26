@@ -12,7 +12,7 @@ import (
 	"os"
 	"strconv"
 
-	"code.google.com/p/go.crypto/ssh"
+	"golang.org/x/crypto/ssh"
 )
 
 const vmlookup = "/usr/bin/env vmadm lookup -j -o "
